@@ -36,7 +36,7 @@ func CreateTrackingId(salt string) string {
 		len(salt),
 		getRandomNumber(3),
 		len(salt)/2,
-		getRandomNumber(7),
+		getRandomNumber(9),
 	)
 }
 
